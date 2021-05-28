@@ -47,9 +47,16 @@ FROM member;
 
 UPDATE member
 SET NAME = '퐁퐁부인', addr = '면허시험장'
-WHERE num=11
+WHERE num=11;
 
+DELETE FROM member WHERE num = 17;
 
+DESC dept;
+SELECT deptno, dname, loc
+FROM dept;
+
+SELECT *
+FROM emp
 
 
 
